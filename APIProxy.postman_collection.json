@@ -1,0 +1,311 @@
+{
+	"info": {
+		"name": "APIProxy",
+		"_postman_id": "5d19fe9d-90ee-2db5-eefe-dfe490e886a4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test 404",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					},
+					{
+						"key": "x-simulated-response",
+						"value": "404"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test 500",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					},
+					{
+						"key": "x-simulated-response",
+						"value": "500"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test Cookie",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					},
+					{
+						"key": "x-cookie-modification",
+						"value": "cookie_1:newValue,cookie_2:secondValue"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test Put",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "testHeader",
+						"value": "testHeaderValue"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test?TestQueryString=TestValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					],
+					"query": [
+						{
+							"key": "TestQueryString",
+							"value": "TestValue",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Test Head",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "testBodyKey",
+							"value": "BodyKeyValue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"test"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		}
+	]
+}

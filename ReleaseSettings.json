@@ -1,0 +1,23 @@
+{
+    "environment": {
+      "AppPoolName": "EstipAPI",
+      "AppFileFolderName": "EStipAPI",
+      "WebAppName": "EstipAPI",
+      "WebAppSiteName": "EStipAPI",
+      "UseNetworkServices": true
+    },
+    "tokens": [
+      {
+        "dev": [
+          {
+            "filter": [
+                "appsettings.json"
+            ],
+            "values": {
+
+            }
+          }
+        ]
+      }
+    ]
+  }

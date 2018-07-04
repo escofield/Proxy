@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestIntercessor", "RequestIntercessor.csproj", "{11E89852-783C-4CFF-9934-0142F2B47B4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E89852-783C-4CFF-9934-0142F2B47B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E89852-783C-4CFF-9934-0142F2B47B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E89852-783C-4CFF-9934-0142F2B47B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E89852-783C-4CFF-9934-0142F2B47B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {876EA9CB-C630-4149-8E2F-1DF77B77C5EE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.tdot.tn.gov:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = RequestIntercessor.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://tfs.tdot.tn.gov:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

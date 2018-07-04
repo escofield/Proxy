@@ -1,0 +1,41 @@
+@model RequestIntercessor.Models.MirrorModel;
+
+<html>
+    <body>
+        <table>
+            <tr>
+                <td>Url</td><td>@Model.Url</td>
+            </tr>
+            <tr>
+                <td>Type</td><td>@Model.Method</td>
+            </tr>
+        </table>
+        <h1>Header</h1>
+        <table>
+            @foreach(var h  in Model.Headers){
+                <tr>
+                    <td>@h.Key</td><td>@h.Value</td>
+                </tr>
+            }
+        </table>
+
+        <h1>Form items</h1>
+        <table>
+            @foreach(var h  in Model.Form){
+                <tr>
+                    <td>@h.Key</td><td>@h.Value</td>
+                </tr>
+            }
+        </table>
+        <h1>Query items</h1>
+        <table>
+            @foreach(var h  in Model.Query){
+                <tr>
+                    <td>@h.Key</td><td>@h.Value</td>
+                </tr>
+            }
+        </table>
+        <h1>BODY</h1>
+        @Model.Body
+    </body>
+</html>

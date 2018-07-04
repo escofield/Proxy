@@ -1,0 +1,10 @@
+c:\Stuff\RequestIntercessor\bin\Debug\netcoreapp2.0\RequestIntercessor.deps.json
+c:\Stuff\RequestIntercessor\bin\Debug\netcoreapp2.0\RequestIntercessor.runtimeconfig.json
+c:\Stuff\RequestIntercessor\bin\Debug\netcoreapp2.0\RequestIntercessor.runtimeconfig.dev.json
+c:\Stuff\RequestIntercessor\bin\Debug\netcoreapp2.0\RequestIntercessor.dll
+c:\Stuff\RequestIntercessor\bin\Debug\netcoreapp2.0\RequestIntercessor.pdb
+c:\Stuff\RequestIntercessor\obj\Debug\netcoreapp2.0\RequestIntercessor.csproj.CoreCompileInputs.cache
+c:\Stuff\RequestIntercessor\obj\Debug\netcoreapp2.0\RequestIntercessor.AssemblyInfoInputs.cache
+c:\Stuff\RequestIntercessor\obj\Debug\netcoreapp2.0\RequestIntercessor.AssemblyInfo.cs
+c:\Stuff\RequestIntercessor\obj\Debug\netcoreapp2.0\RequestIntercessor.dll
+c:\Stuff\RequestIntercessor\obj\Debug\netcoreapp2.0\RequestIntercessor.pdb
